@@ -1,0 +1,144 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     pin
+02D-036 digits
+037.0   flag
+038     a
+039-03C atan2.y
+039     show.num
+03A     @DIV88.P1
+03A     @delay_ms1.P2
+03A     show.@SCRATCH1
+03B     @DIV88.P1
+03C     @DIV88.@SCRATCH1
+03D-040 getTempCelsius.Vx
+03D-040 @SFTOI.P1
+03D-040 atan2.x
+041-044 atan2.z
+041-044 getTempCelsius.Rx
+045-048 getTempCelsius.temp
+045.0   atan2.sign
+046     atan2.quad
+049-04C getTempCelsius.y
+04D-04E @ITOF.P1
+04D     getTempCelsius.@SCRATCH1
+04E     getTempCelsius.@SCRATCH2
+04F     getTempCelsius.@SCRATCH3
+050     getTempCelsius.@SCRATCH4
+051-054 log.x
+055-058 log.y
+059-05C log.res
+05D-060 log.r
+061-064 log.y2
+065     log.n
+066-069 @FLT.P1
+066-069 @MULFF.P2
+066-067 @SITOF.P3
+066     log.@SCRATCH1
+067     log.@SCRATCH2
+068     log.@SCRATCH3
+069     log.@SCRATCH4
+06A-06D @ADDFF.P1
+06A-06D @DIVFF.P2
+06A-06D @FLT.P3
+06A-06D @MULFF.P4
+06E-071 @ADDFF.P1
+06E-071 @DIVFF.P2
+06E     @FLT.@SCRATCH1
+06E     @MULFF.@SCRATCH1
+06F     @FLT.@SCRATCH2
+06F     @MULFF.@SCRATCH2
+070     @MULFF.@SCRATCH3
+071     @MULFF.@SCRATCH4
+072     @MULFF.@SCRATCH5
+072     @ADDFF.@SCRATCH1
+072     @DIVFF.@SCRATCH1
+073     @ADDFF.@SCRATCH2
+073     @DIVFF.@SCRATCH2
+074     @ADDFF.@SCRATCH3
+074     @DIVFF.@SCRATCH3
+075     @ADDFF.@SCRATCH4
+075     @DIVFF.@SCRATCH4
+076     @ADDFF.@SCRATCH5
+076     @DIVFF.@SCRATCH5
+077     @ADDFF.@SCRATCH6
+077     @DIVFF.@SCRATCH6
+078     @ADDFF.@SCRATCH7
+079     @ADDFF.@SCRATCH8
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000033  @MULFF
+0000A8  @ADDFF
+0001E6  @DIVFF
+0002B0  @SITOF
+0002D5  TIMER1_isr
+0002E1  getTempCelsius
+0002FC  @ITOF
+000398  log
+0003AD  @FLT
+0005E1  @SFTOI
+00060E  seg_init
+000624  @delay_ms1
+000637  @DIV88
+00064C  show
+00071B  @cinit1
+00071B  MAIN
+000730  @cinit2
+
+Project Directory:
+    E:\iWork\PROYECTOS_PIC\PROYECTOS TERMINADOS\TEMPERATURA CARROS\CON 16F873A\
+
+Project Files:
+    con16f873a.c                                            [20-nov.-16 18:56  CRC=4D08C7DB]
+    C:\Program Files (x86)\PICC\Devices\16F873A.h           [19-jul.-13 09:10  CRC=47139C71]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-sep.-12 05:35  CRC=546412C9]
+    NTC.h                                                   [20-nov.-16 18:51  CRC=CF48D207]
+    7SEG_2DIG_PB.h                                          [05-oct.-16 17:37  CRC=3E96BFFD]
+
+Source signature=34F6C916
+
+Units:
+    con16f873a (main)
+
+Compiler Settings:
+    Processor:      PIC16F873A
+    Pointer Size:   8
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   con16f873a.xsym
+    Errors:      con16f873a.err
+    Ext Symbols: con16f873a.esym
+    INHX8:       con16f873a.hex
+    Symbols:     con16f873a.sym
+    List:        con16f873a.lst
+    Debug/COFF:  con16f873a.cof
+    Project:     con16f873a.ccspjt
+    Call Tree:   con16f873a.tre
+    Statistics:  con16f873a.STA

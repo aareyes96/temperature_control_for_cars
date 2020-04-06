@@ -1,0 +1,30 @@
+[PROJECT]
+Target=con16f873a.hex
+Processor_Text=PIC16F873A
+CCSVerions=5.010
+Compiler=PCM
+CCSVersion=5.010
+[Target Data]
+FileList=con16f873a.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[E:\iWork\PROYECTOS_PIC\TEMPERATURA CARROS\con16f873a]
+Type=4
+[mru-list]
+1=con16f873a.c
+[Opened Files]
+1=con16f873a.c
+2=NTC.h
+3=C:\Program Files (x86)\PICC\Devices\16F873A.h
+4=
+[con16f873a.c]
+Type=4
+[Documentation]
+1=E:\iWork\PROYECTOS_PIC\PROYECTOS TERMINADOS\TEMPERATURA CARROS\con16f873a Notes.txt
+1T=con16f873a Notes.txt
+1E=
+1W=0
+Count=1
+[Units]
+Count=1
+1=con16f873a (main)
